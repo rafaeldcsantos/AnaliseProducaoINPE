@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Análise da Produção do INPE"
+  favicon: "Resources/Images/Logo.png" 
+  sidebar:
+    logo: "Resources/Images/Logo.png"
+    style: "docked"
+    search: true
+    contents:
+      - index.qmd  
+      - section: "Usando SCIVAL"
+        contents:
+        - 00-Lectures-Intro.qmd
+      - section: "Cookbook"
+  page-footer: 
+    center: "<a href='https://linktr.ee/rafaeldcsantos'>Rafael Santos</a>" 
+
+format:
+  html:
+    theme:
+      - spacelab
+    toc: true
+    date: last-modified
+    date-format: long
+
+
+
